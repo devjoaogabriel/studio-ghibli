@@ -1,0 +1,45 @@
+@media (max-width: 940px) {
+    section {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .image {
+        display: flex;
+        order: -1;
+    }
+}
+@media (max-width: 500px) {
+    .authorClass h3 {
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+    }
+    .filmClass h1 {
+        font-size: 5.6rem;
+        line-height: 109%;
+    }
+    .descriptionFilm p {
+        font-size: 1.4rem;
+        line-height: 180%;
+    }
+    .buttonRight {
+        display: none;
+    }
+}
+@media (max-width: 415px) {
+    section {
+        padding: 0 5%;
+    }
+    .navBar {
+        padding: 0 5%;
+    }
+}
+@media (max-width: 345px) {
+    .filmClass h1 {
+        font-size: 5.0rem;
+        line-height: 87%;
+    }
+    .navBox {
+        align-items: flex-end;
+    }
+}
