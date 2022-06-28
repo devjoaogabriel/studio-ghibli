@@ -9,7 +9,7 @@
         order: -1;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 560px) {
     .authorClass h3 {
         font-size: 1.8rem;
         line-height: 2.7rem;
