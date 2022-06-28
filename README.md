@@ -4,7 +4,7 @@
 
 ---
 
-<img src="./StudioGhibli.png"/>
+<img src="./Studio-Ghibli.png"/>
 
 <h4 align="center"><a href="https://devjoaogabriel.github.io/studio-ghibli/">Clique para visitar o projeto</a></h4>
 
