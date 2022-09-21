@@ -1,7 +1,1 @@
-# Studio-Ghibli
-
-> ### 🚧 Test repository
->
-> - 👷🏽‍♀️ Completing Styling.
-
-
+## 🚧 Projeto em Manutenção!!!
