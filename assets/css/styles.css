@@ -8,6 +8,8 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 html {
@@ -23,20 +25,13 @@ body {
 
 body {
   font-size: 1.6rem;
-  background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%)
-    no-repeat;
-  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%) no-repeat;
   color: #F9F9F9;
   min-height: 100vh;
 }
 
 ::-webkit-scrollbar {
   width: 0.1px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 a {
@@ -60,7 +55,6 @@ nav ul {
   list-style: none;
 }
 
-
 section {
   padding: var(--layout-flow);
   display: flex;
@@ -71,6 +65,10 @@ section {
 .content {
   max-width: 445px;
   min-height: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .author_class { font: 700 normal 2.0rem/30px 'Poppins', sans-serif; }
@@ -79,31 +77,48 @@ section {
 
 .box_ctas {
   display: flex;
-  justify-content: space-between;
+  column-gap: 16px;
+  margin-top: 40px;
 }
 
-.box_ctas button {
+.box_ctas button[type="submit"] {
+  font: 400 normal 1.4rem/180% 'Poppins';
+  text-transform: uppercase;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 205px;
-  height: 40px;
-  margin-top: 36px;
-
-}
-
-.button_right button {
-  border: 2px solid #658E76;
-  background: transparent;
-  color: #F9F9F9;
-  font: 100 normal 1.4rem/29px 'Poppins', sans-serif;
-  text-transform: uppercase;
+  padding: 8px 14px;
+  width: 200px;
+  column-gap: 9px;
+  cursor: pointer;
 }
 
 .button_left button {
-  background-color: #658E76;
+  background: #658E76;
+  border: 2px solid #658E76;
   color: #F9F9F9;
-  font: 100 normal 1.4rem/29px 'Poppins', sans-serif;
-  text-transform: uppercase;
-  border: none;
+}
+
+.button_right button {
+  background: transparent;
+  border: 2px solid #628e75;
+  color: #F9F9F9;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  animation: float-img 2.5s ease-in-out infinite;
+}
+
+@keyframes float-img {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.95rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

@@ -3,20 +3,42 @@
 /* Para pequenos dispositivos */
 
 @media screen and (max-width: 340px) {
-}
-
-/* Para dispositivos pequenos */
-
-@media screen and (min-width: 440px) {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 440px) {
+    .author_class { 
+        font: 700 normal 1.8rem/27px 'Poppins', sans-serif; 
+        letter-spacing: 0.03rem;
+    }
+    .film_class { 
+        font: 900 normal 3.9rem/49px 'Poppins', sans-serif;
+        
+    }
+    .description { 
+        font: 300 normal 1.4rem/25px 'Poppins',sans-serif;
+    }
+}
+
+/* Para medios dispositivos */
+
+@media screen and (max-width: 768px) {
+    div.button_right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    section {
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-bottom: 5vh;
+    }
 
 }
 
 /* For grandes dispositivos */
 
 @media screen and (min-width: 1100px) {
-    
-}
+
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;

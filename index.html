@@ -1,86 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="João Gabriel" />
-  <meta http-equiv="content-language" content="pt-br" />
+    <!-- Import CSS, icons and fonts -->
 
-  <!-- Import CSS, icons and fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <title>Studio Ghibli - A VIAGEM DE CHIHIRO</title>
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/styles.css" />
-  <link rel="stylesheet" href="./assets/css/responsive.css" />
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <title>Studio Ghibli - A VIAGEM DE CHIHIRO</title>
-</head>
+  <body>
+    <div class="navegation_bar">
+      <div class="logo">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/logo.svg" alt="Logo Chihiro" />
+        </a>
+      </div>
 
-<body>
-  <div class="navegation_bar">
-    <div class="logo">
-      <img src="./assets/img/logo.svg" alt="Logo Chihiro">
+      <nav>
+        <ul>
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/icons/facebook.svg" alt="facebook icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/icons/instagram.svg" alt="instagram icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/icons/twitter.svg" alt="twitter icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/icons/youtube.svg" alt="youtube icon" />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <nav>
-      <ul>
-        <li>
-          <img src="./assets/icons/facebook.svg" alt="facebook icon">
-        </li>
-        <li>
-          <img src="./assets/icons/instagram.svg" alt="instagram icon">
-        </li>
-        <li>
-          <img src="./assets/icons/twitter.svg" alt="twitter icon">
-        </li>
-        <li>
-          <img src="./assets/icons/youtube.svg" alt="youtube icon">
-        </li>
-      </ul>
-    </nav>
+    <!--Conteúdo principal -->
 
-  </div>
-
-  <!-- Main Content -->
-
-  <main>
-    <section>
-      <div class="container content">
-        <div class="author_class">
-          <h3>HAYAO MIYAZAKI</h3>
-        </div>
-        <div class="film_class">
-          <h1>A VIAGEM DE CHIHIRO</h1>
-        </div>
-        <div class="description">
-          <p>
-            Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles
-            que a desobedecem são transformados em animais.
-          </p>
-        </div>
-        <div class="box_ctas">
-          <div class="button_left">
-            <button>
-              <h4>Assistir Agora</h4>
-            </button>
+    <main>
+      <section>
+        <div class="container content">
+          <div class="author_class">
+            <h3>HAYAO MIYAZAKI</h3>
           </div>
-          <div class="button_right">
-            <button type="submit">
-              <h4>Assista ao Trailer</h4>
-            </button>
+          <div class="film_class">
+            <h1>A VIAGEM DE CHIHIRO</h1>
+          </div>
+          <div class="description">
+            <p>
+              Chihiro chega a um mundo mágico dominado por uma bruxa. 
+              Aqueles que a desobedecem são transformados em animais.
+            </p>
+          </div>
+          <div class="box_ctas">
+            <div class="button_left">
+              <button type="submit">
+                <img src="./assets/icons/play.svg" alt="play-icon">
+                Assistir Agora
+              </button>
+            </div>
+            <div class="button_right">
+              <button type="submit">Assista ao Trailer</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="container image">
-        <img src="./assets/img/chihiro.svg" alt="CHIHIRO" />
-      </div>
-    </section>
-  </main>
-</body>
-
+        <div class="container image">
+          <img src="./assets/img/chihiro.svg" alt="CHIHIRO" />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
