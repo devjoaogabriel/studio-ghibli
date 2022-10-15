@@ -91,6 +91,7 @@ section {
   width: 200px;
   column-gap: 9px;
   cursor: pointer;
+  transition: all ease-in-out .3s;
 }
 
 .button_left button {
@@ -121,4 +122,22 @@ section {
   100% {
     transform: translateY(0);
   }
+}
+
+/* HOVER EFFECTS */
+
+.button_left button:hover {
+  background-color: transparent;
+}
+
+.button_right button:hover {
+  background-color: #628e75;
+}
+
+.button_left button:focus {
+  background-color: #628e75;
+}
+
+.button_right button:focus {
+  background-color: transparent;
 }
