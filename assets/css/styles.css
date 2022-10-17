@@ -36,6 +36,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit
 }
 
 p, h1, h2, h3, h4, h5, h6 { margin: 0; }
@@ -81,7 +82,7 @@ section {
   margin-top: 40px;
 }
 
-.box_ctas button[type="submit"] {
+.box_ctas a {
   font: 400 normal 1.4rem/180% 'Poppins';
   text-transform: uppercase;
   display: flex;
@@ -94,13 +95,13 @@ section {
   transition: all ease-in-out .3s;
 }
 
-.button_left button {
+.button_left a {
   background: #658E76;
   border: 2px solid #658E76;
   color: #F9F9F9;
 }
 
-.button_right button {
+.button_right a {
   background: transparent;
   border: 2px solid #628e75;
   color: #F9F9F9;
@@ -128,18 +129,18 @@ section {
 
 /* HOVER EFFECTS */
 
-.button_left button:hover {
+.button_left a:hover {
   background-color: transparent;
 }
 
-.button_right button:hover {
+.button_right a:hover {
   background-color: #628e75;
 }
 
-.button_left button:focus {
+.button_left a:focus {
   background-color: #628e75;
 }
 
-.button_right button:focus {
+.button_right a:focus {
   background-color: transparent;
 }
