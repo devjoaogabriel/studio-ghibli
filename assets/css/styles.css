@@ -112,6 +112,8 @@ section {
   animation: float-img 2.5s ease-in-out infinite;
 }
 
+/* ANIMAÇÃO  */
+
 @keyframes float-img {
   0% {
     transform: translateY(0);
