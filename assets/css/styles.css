@@ -130,7 +130,7 @@ section {
 /* HOVER EFFECTS */
 
 .button_left a:hover {
-  background-color: transparent;
+  filter: brightness(1.1);
 }
 
 .button_right a:hover {
